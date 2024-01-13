@@ -13,9 +13,9 @@
 // open mobile menu
 
 $("#burger").click(function () {
-    // when icon clicked toggle the tailwind class of opacity and top
+  // when icon clicked toggle the tailwind class of opacity and top
   $("#nav").toggleClass("opacity-100 top-[70px]");
-//  chamge between the menu and the close icon
+  //  chamge between the menu and the close icon
   if ($("#icon").hasClass("fa-bars")) {
     $("#icon").addClass("fa-xmark");
     $("#icon").removeClass("fa-bars");
@@ -23,4 +23,12 @@ $("#burger").click(function () {
     $("#icon").addClass("fa-bars");
     $("#icon").removeClass("fa-xmark");
   }
+});
+
+// when image is clicked show full screen
+
+$(document).ready(function () {
+  $("img").click(function () {
+    this.requestFullscreen();
+  });
 });
