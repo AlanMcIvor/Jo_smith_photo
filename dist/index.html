@@ -18,41 +18,51 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   </head>
-  <body class="bg-background text-text font-poppins">
+  <body class="bg-[#f6f6f6] text-text font-sans">
     <!-- nav -->
     <nav
-      class="p-5 md:px-20 shadow md:flex md:items-center md:justify-between fixed right-0 left-0 z-50 bg-slate-950 text-white"
+      class="p-5 md:px-20 shadow md:flex md:items-center md:justify-around fixed right-0 left-0 z-50 bg-white"
     >
       <div class="flex justify-between items-center">
-        <span class="text-2xl flex items-center gap-2 cursor-pointer"
-          ><ion-icon name="camera-outline"></ion-icon>Jo Smith</span
+        <span class="text-2xl flex items-center gap-2 cursor-pointer text-black"
+          >Jo Smith</span
         >
-        <span class="text-3xl cursor-pointer md:hidden block" id="burger">
+        <span
+          class="text-3xl cursor-pointer md:hidden block text-black"
+          id="burger"
+        >
           <i id="icon" class="fa-solid fa-bars"></i>
         </span>
       </div>
 
       <ul
-        class="md:flex md:items-center gap-5 z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 bg-slate-950"
+        class="md:flex md:items-center gap-5 z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 bg-[#CBDFE6] md:bg-transparent text-black"
         id="nav"
       >
         <li class="my-6 md:my-0">
-          <a href="#" class="text-xl hover:text-cyan-500 duration-200">Home</a>
+          <a href="#" class="text-xl hover:text-[#4B879C] duration-300">Home</a>
         </li>
         <li class="my-6 md:my-0">
-          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+          <a href="#" class="text-xl hover:text-[#4B879C] duration-300"
             >Gallery</a
           >
         </li>
         <li class="my-6 md:my-0">
-          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+          <a href="#" class="text-xl hover:text-[#4B879C] duration-300"
             >Services</a
           >
         </li>
         <li class="my-6 md:my-0">
-          <a href="#" class="text-xl hover:text-cyan-500 duration-500"
+          <a href="#" class="text-xl hover:text-[#4B879C] duration-300"
             >Contact</a
           >
         </li>
@@ -61,20 +71,193 @@
 
     <!-- hero -->
 
-    <section
-      id="hero"
-      class="flex items-center justify-center bg-[url('assets/bg.jpg')] bg-cover bg-no-repeat bg-center relative min-h-dvh bg-fixed"
-    >
-
-      <div>
-        <span class="text-center text-slate-950"
-          ><h1 class="text-7xl ">Jo Smith</h1>
-          <p class="text-4xl">Photography</p></span
-        >
+    <section id="hero">
+      <div
+        class="container flex flex-col text-center items-center justify-center min-h-80 m-auto"
+      >
+        <h1 class="font-serif text-2xl md:text-4xl font-light mx-4 mb-2 my-10">
+          Wedding & Landscape Photographer
+        </h1>
+        <p class="font-sans text-base md:text-lg font-normal mx-4">
+          Celebrate Love and Nature Through Our Exceptional Wedding and
+          Landscape Photography
+        </p>
       </div>
 
-      <div class="overlay"></div>
+      <div class="container m-auto grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape1.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape2.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding1.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding2.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape3.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape4.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding3.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding4.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape5.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape6.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding5.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding6.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape7.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape8.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding7.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding8.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape9.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape10.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding9.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding10.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape10.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/LandscapePhotography/landscape11.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding11.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full"
+            src="assets/WeddingPhotography/wedding12.jpg"
+            alt=""
+          />
+        </div>
+      </div>
     </section>
+
+    <section id="services"></section>
+    <section id="contact"></section>
 
     <script src="script.js"></script>
   </body>
