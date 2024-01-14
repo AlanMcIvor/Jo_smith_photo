@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jo Smith | Photography</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body class="bg-[#f6f6f6] text-text font-sans min-h-screen">
+    <!-- nav -->
+    <nav
+      class="p-5 md:px-20 shadow md:flex md:items-center md:justify-around z-50 bg-white"
+    >
+      <div class="flex justify-between items-center">
+        <span class="text-2xl flex items-center gap-2 cursor-pointer text-black"
+          >Jo Smith</span
+        >
+        <span
+          class="text-3xl cursor-pointer md:hidden block text-black"
+          id="burger"
+        >
+          <i id="icon" class="fa-solid fa-bars"></i>
+        </span>
+      </div>
+
+      <ul
+        class="md:flex md:items-center gap-5 z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-300 bg-[#CBDFE6] md:bg-transparent text-black"
+        id="nav"
+      >
+        <li class="my-6 md:my-0">
+          <a href="index.html" class="text-xl hover:text-[#4B879C] duration-300"
+            >Home</a
+          >
+        </li>
+        <li class="my-6 md:my-0">
+          <a href="#gallery" class="text-xl hover:text-[#4B879C] duration-300"
+            >Gallery</a
+          >
+        </li>
+        <li class="my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-[#4B879C] duration-300"
+            >About me</a
+          >
+        </li>
+        <li class="my-6 md:my-0">
+          <a href="#" class="text-xl hover:text-[#4B879C] duration-300"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- hero -->
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-9">
+      <div class= p-4">
+      <img
+        class="pointer-events-none"
+        src="https://images.unsplash.com/photo-1513031300226-c8fb12de9ade?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+      />
+    </div>
+    <div class="p-4">
+      <h3 class="text-4xl font-serif mb-5">Hi, I'm Jo Smith.</h3>
+      <p class="font-sans mb-56 md:mb-0">
+        With a keen eye for detail and a heart full of creativity, Jo Smith
+        brings a unique perspective to every wedding and landscape they
+        photograph. Each image tells a story, weaving together the emotions,
+        love, and natural splendor that make every moment truly special. <br />
+        <br />
+        Jo's journey in photography is a tale of love and dedication. From the
+        delicate exchange of vows to the breathtaking vistas that serve as
+        backdrops, Jo Smith is committed to freezing these precious moments in
+        time. Their work is a celebration of love, showcasing the raw and
+        genuine emotions that define a wedding day. <br />
+        <br />
+        In the realm of landscape photography, Jo's lens transforms ordinary
+        scenes into extraordinary works of art. From the soft hues of a sunrise
+        to the vibrant colors of a sunset, Jo captures the essence of nature in
+        its most awe-inspiring forms. Each photograph is a testament to Jo's
+        ability to find beauty in the simplicity of the world around us. Driven
+        by a deep appreciation for love and nature, Jo Smith's photography is a
+        testament to the power of storytelling through images. Whether it's a
+        couple's joyous union or the serene beauty of a natural landscape, Jo's
+        photographs are a visual poetry that resonates with viewers on a
+        profound level. <br />
+        <br />
+        As you explore Jo Smith's portfolio, you're invited to embark on a
+        visual journey that transcends time and space. Join Jo in celebrating
+        the magic of weddings and the breathtaking allure of landscapes, and
+        allow the artistry of their photography to speak to your heart.
+      </p>
+    </div>
+    <!-- footer -->
+    <footer
+      class="min-h-36 bg-zinc-300 mt-10 flex flex-col items-center justify-center gap-5 fixed bottom-0 right-0 left-0"
+    >
+      <div class="icons flex gap-5">
+        <i
+          class="fa-brands fa-square-facebook fa-2xl cursor-pointer"
+          style="color: #969696"
+        ></i>
+        <i
+          class="fa-brands fa-square-twitter fa-2xl cursor-pointer"
+          style="color: #969696"
+        ></i>
+        <i
+          class="fa-brands fa-square-instagram fa-2xl cursor-pointer"
+          style="color: #969696"
+        ></i>
+        <i
+          class="fa-brands fa-square-behance fa-2xl cursor-pointer"
+          style="color: #969696"
+        ></i>
+      </div>
+      <div class="footer_txt text-gray-400">2023 Code by Alan</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
