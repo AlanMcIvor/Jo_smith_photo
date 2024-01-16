@@ -694,6 +694,10 @@ video {
   height: auto;
 }
 
+.min-h-32 {
+  min-height: 8rem;
+}
+
 .min-h-36 {
   min-height: 9rem;
 }
@@ -706,8 +710,16 @@ video {
   min-height: 100vh;
 }
 
+.min-h-28 {
+  min-height: 7rem;
+}
+
 .w-full {
   width: 100%;
+}
+
+.min-w-full {
+  min-width: 100%;
 }
 
 .max-w-full {
